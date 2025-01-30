@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia, Garamond, serif;
+    background-image: url(../images/silverware.jpg);
+}
+
+.heading {
+    background-color: #F0F0F0;
+    color: #A4A400;
+    text-decoration: underline;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    display: inline;
+}
+
+#main-heading-container {
+    display: flex;
+    justify-content: center; 
+}
+
+#main-heading {
+    font-size: 22pt;
+    font-weight: bold;
+}
+
+.sub-heading {
+    font-size: 18pt;
+}
+
+#lemon-pie-info {
+    font-size: 11pt;
+    white-space: pre-line;
+}
+
+.user-comments{
+    font-size: 11pt;
+    font-style: italic;
+    margin-bottom: 15px;
+    background-color: #FFFFA8;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 15px;
+}
+
+pre{
+    text-align: right;
+}
+a{
+    display: block;
+    color: #A4A400 ;
+}
+
+pre{
+    display: inline-block;
+    text-align: right;
+}
+
+ul{
+    list-style-image: url(../images/pie_icon.gif);
+}

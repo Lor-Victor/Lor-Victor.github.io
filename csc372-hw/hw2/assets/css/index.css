@@ -1,0 +1,22 @@
+h1,h2,p{
+    text-align: center;
+}
+p{
+    border: red solid;
+}
+body {
+    background-color: #ebd6d6;
+}
+
+#container{
+    text-align: center;
+}
+.info-container{
+    text-align: left;
+    padding: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 10%;
+}
