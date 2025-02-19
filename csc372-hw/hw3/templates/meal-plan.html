@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+    Name: Victor Lor
+    Date: 2.16.2025
+
+    This is the page where the user will be able to creat their own meal plan from the 
+    recommended options from stores.html. The meal plan will also show the total costs.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine on Campus</title>
+    <link rel="stylesheet" href="../assets/css/meal.css">
+    <script src="../assets/scripts/meal.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Dine on Campus</h1>
+        <p>Click <a href="index.html">here</a> to go to the Home page or <a href="stores.html">here</a> to view
+            stores near campus.</p>
+    </header>
+    <main>
+        <section id="meal-plan-container">
+            <h2 id="create-header">Create a Meal Plan</h2>
+            <h4>Recommended Dishes:</h4>
+            <div id="dish-card-container">
+                <div id="dish-list">
+                    <div class="dish-card">
+                        <p class="dish-name">Pork Gyoza</p>
+                        <p class="dish-cost">Cost: $6.00</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Tempura Udon</p>
+                        <p class="dish-cost">Cost: $12.50</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Beef Bulgogi Bowl</p>
+                        <p class="dish-cost">Cost: $11.00</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Meat Lovers Pizza</p>
+                        <p class="dish-cost">Cost: $25.50</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Mozzarella Caprese</p>
+                        <p class="dish-cost">Cost: $12.98</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">NYP Pizza</p>
+                        <p class="dish-cost">Cost: $25.50</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Don Donkatsu Don</p>
+                        <p class="dish-cost">Cost: $12.45</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Curry Don Donkatsu Don</p>
+                        <p class="dish-cost">Cost: $13.45</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                    <div class="dish-card">
+                        <p class="dish-name">Shoyu Ramen</p>
+                        <p class="dish-cost">Cost: $10.95</p>
+                        <button class="add-btn">Add</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <aside>
+            <h4> Your Meal Plan:</h4>
+            <div id="meal-plan-list">
+
+            </div>
+            <p id="total-cost">Total: </p>
+        </aside>
+    </main>
+</body>
+
+</html>

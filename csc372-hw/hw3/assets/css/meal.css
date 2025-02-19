@@ -1,0 +1,82 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+    border-style: ridge;
+    border-color: rgb(241, 151, 151);
+}
+
+#title {
+    margin-top: 5px;
+}
+
+main {
+    display: inline-flex;
+    width: 100%;
+}
+
+#create-header {
+    margin-bottom: 0;
+}
+
+#meal-plan-container {
+    margin-top: 2%;
+    flex-direction: column;
+    width: 65%;
+    background-color: rgb(230, 204, 174);
+    border-radius: 5px;
+    border-style: solid;
+    padding: 1%;
+    padding-top: 0;
+}
+
+#dish-list {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dish-card {
+    background-color: rgb(250, 236, 224);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding: .5%;
+}
+
+.dish-name {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.dish-cost {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.add-btn {
+    margin: 0 auto auto;
+}
+
+aside {
+    margin-top: 1%;
+    margin-left: 2%;
+    border-style: solid;
+    width: 30%;
+    padding: 0px 5px 5px 5px;
+}
+
+.remove-btn {
+    margin-left: 10%;
+}
+
+#total-cost {
+    margin-top: auto;
+}

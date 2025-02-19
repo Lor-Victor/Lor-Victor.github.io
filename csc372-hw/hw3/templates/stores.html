@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Name: Victor Lor
+    Date: 2.17.2025
+
+    This is the stores.html that lists the 3 nearby stores. Each store has 3 recommendations of food.
+    Clicking on an image will enlarge it and show the description of the dish. 
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine on Campus</title>
+    <link rel="stylesheet" href="../assets/css/stores.css">
+    <script src="../assets/scripts/scripts.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Dine on Campus</h1>
+        <p>Click <a href="index.html">here</a> to go to the Home page or <a href="meal-plan.html">here</a> to create
+            a meal plan.</p>
+    </header>
+    <main>
+        <section id="main-container">
+            <section class="store-container">
+                <div class="store-info">
+                    <h2>Sushi Republic</h2>
+                    <p class="hours"> Hours:
+                        Monday: 11:30 AM - 2:30PM, 5 - 9:30PM
+                        Tuesday: 11:30AM - 2:30PM, 5 - 9:30PM
+                        Wednesday: 11:30AM - 2:30PM, 5 - 9:30PM
+                        Thursday: 11:30AM - 2:30PM, 5 - 9:30PM
+                        Friday: 11:30AM - 2:30PM, 5 - 9:30PM
+                        Saturday: 5 - 10PM
+                        Sunday: Closed
+                    </p>
+                </div>
+                <div class="store-food">
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/gyoza.jpg" alt="picture of pork gyoza">
+                        <!-- Credit: https://hungryinthailand.com/pork-gyoza-recipe/ -->
+                        <p>Pork Gyoza</p>
+                        <div class="hidden">
+                            <p>Price: $6.00</p>
+                            6 pork dumplings pan-fried or steamed, wrapped in a wheat flour dough with aromatics.
+                        </div>
+                    </div>
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/tempura.jpg" alt="picture of tempura udon">
+                        <!-- Credit: https://carmyy.com/tempura-udon/ -->
+                        <p>Tempura Udon</p>
+                        <div class="hidden">
+                            <p>Price: $12.50</p>
+                            Shiitake mushrooms, crab, scallions, & thick udon noodles in a seafood broth with
+                            crunchy tempura shrimp.
+                        </div>
+                    </div>
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/bulgogi.jpg" alt="picture of beef bulgogi">
+                        <!-- Credit: https://www.spoonforkbacon.com/beef-bulgogi-recipe/ -->
+                        <p>Beef Bulgogi Bowl</p>
+                        <div class="hidden">
+                            <p>Price: $11.00</p>
+                            Thinly sliced sweet marinated beef served with sautéed vegetables over rice.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="store-container">
+                <div class="store-info">
+                    <h2>New York Pizza</h2>
+                    <p class="hours"> Hours:
+                        Monday: 11:30 AM - 2AM
+                        Tuesday: Closed
+                        Wednesday: 11AM - 2AM
+                        Thursday: 11AM - 2AM
+                        Friday: 11AM - 2AM
+                        Saturday: 12PM - 2AM
+                        Sunday: 1PM - 12AM
+                    </p>
+                </div>
+                <div class="store-food">
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/meatlover.jpg" alt="picture of meat lovers pizza">
+                        <!-- Credit: https://www.thecookierookie.com/meat-lovers-pizza/ -->
+                        <p>Meat Lovers Pizza</p>
+                        <div class="hidden">
+                            <p>Price: $25.50</p>
+                            Loaded with red sauce, ham, sausage, pepperoni, ground beef, bacon, and extra cheese.
+                        </div>
+                    </div>
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/mozzarella.jpg" alt="picture of mozzarella caprese">
+                        <!-- Credit: https://slicelife.com/restaurants/nc/greensboro/27403/new-york-pizza-337-tate-st-greensboro/menu -->
+                        <p>Mozzarella Caprese</p>
+                        <div class="hidden">
+                            <p>Price: $12.98</p>
+                            Fresh Mozzarella, cut in slices with tomatoes and basil, with a touch of balsamic glaze.
+                        </div>
+                    </div>
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/nyp.jpg" alt="picture of NYP pizza">
+                        <p>NYP Pizza</p>
+                        <div class="hidden">
+                            <p>Price: $27.50</p>
+                            Red sauce, green peppers, onions, mushrooms, black olives, diced tomatoes, garlic,
+                            pepperoni, sausage, ground beef, bacon, and extra cheese.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="store-container">
+                <div class="store-info">
+                    <h2>Don</h2>
+                    <p class="hours"> Hours:
+                        Monday: 11:30 AM - 3:30PM, 5 - 10PM
+                        Tuesday: 11:30 AM - 3:30PM, 5 - 10PM
+                        Wednesday: 11:30 AM - 3:30PM, 5 - 10PM
+                        Thursday: 11:30 AM - 3:30PM, 5 - 10PM
+                        Friday: 11:30 AM - 3:30PM, 5 - 10PM
+                        Saturday: 12 - 10PM
+                        Sunday: Closed
+                    </p>
+                </div>
+                <div class="store-food">
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/donkatsu.jpg" alt="picture of don katsu don">
+                        <p>Don Donkatsu Don</p>
+                        <div class="hidden">
+                            <p>Price: $12.45</p>
+                            Deep-fried panko-breaded pork cutlet, egg, and onions simmered in dashi sauce, served over
+                            rice.
+                        </div>
+                    </div>
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/currydonkatsu.jpg" alt="picture of curry don katsu don">
+                        <p>Curry Don Donkatsu Don</p>
+                        <div class="hidden">
+                            <p>Price: $13.45</p>
+                            Deep-fried panko-breaded pork cutlet served with curry sauce over rice.
+                        </div>
+                    </div>
+                    <div class="food-item">
+                        <img class="normal" src="../assets/images/shoyu.jpg" alt="picture of shoyu ramen">
+                        <p>Shoyu Ramen</p>
+                        <div class="hidden">
+                            <p>Price: $10.95</p>
+                            Noodle soup with soy sauce broth, served with curly noodles and a piece of seaweed.
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>

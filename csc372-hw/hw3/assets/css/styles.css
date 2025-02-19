@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+    border-style:ridge;
+    border-color: rgb(241, 151, 151);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#hook{
+    background-color: rgb(249, 236, 220);
+    border-radius: 10px;
+    width: 70%;
+    padding: 2%;
+}
+#links{
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+}
