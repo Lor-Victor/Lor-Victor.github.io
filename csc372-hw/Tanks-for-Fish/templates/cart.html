@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Name: Victor Lor
+    Date: 2.23.2025
+
+    This is the cart.html page to view the items in the cart. 
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Tanks For Fish</title>
+    <link rel="stylesheet" href="../assets/css/template.css">
+    <link rel="stylesheet" href="../assets/css/cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <script src="../assets/scripts/cart.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="tff-nav">
+            <a class="navbar-brand  tff-logo" href="index.html">
+                <img id="tanks-for-fish-logo" src="../assets/images/fish_tank3.png" alt="Bootstrap">
+            </a>
+            <div class="container-fluid header-content">
+                <a class="navbar-brand title" id="single-day-regular-id" href="index.html">Tanks For Fish</a>
+                <form class="d-flex search" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success nav-search-button" type="submit">Search</button>
+                </form>
+                <a id="cart" href="cart.html"><img id="shopping-cart" alt="shopping cart"
+                        src="../assets/images/shopping_cart.png">View My Cart</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart-container">
+            <h3>Shopping Cart</h3>
+            <div class="cart-item">
+                <img src="../assets/images/products/tanks/10-gallon.jpg" alt="10 gallon tank">
+                <div class="item-info">
+                    <p class="item-name">Jumba10G 10 gallon tank</p>
+                    <p class="item-price">$15.00</p>
+                </div>
+                <button class="minus-btn">-</button>
+                <div class="quantity"> 0 </div>
+                <button class="add-btn">+</button>
+            </div>
+            <div class="cart-item">
+                <img src="../assets/images/products/tanks/16-gallon-circle.jpg" alt="16 gallon globe tank">
+                <div class="item-info">
+                    <p class="item-name">biOrb 16 gallon globe tank</p>
+                    <p class="item-price">$50.00</p>
+                </div>
+                <button class="minus-btn">-</button>
+                <div class="quantity"> 0 </div>
+                <button class="add-btn">+</button>
+            </div>
+
+            <div class="cart-item">
+                <img src="../assets/images/products/filters/tetra-filter.jpg" alt="Tetra Whisper Filter">
+                <div class="item-info">
+                    <p class="item-name">Tetra Whisper Filter</p>
+                    <p class="item-price">$14.00</p>
+                </div>
+                <button class="minus-btn">-</button>
+                <div class="quantity"> 0 </div>
+                <button class="add-btn">+</button>
+            </div>
+        </section>
+        <aside id="total-container">
+            <p id="total-text">Total: $ <span id="total">0.00</span></p>
+            <p>Delivery option:</p>
+            <form id="delivery-pickup-form">
+                <input type="radio" id="delivery" name="delivery-option" value="delivery">
+                <label for="delivery">Delivery ($15 charge)</label><br>
+
+                <input type="radio" id="pick-up" name="delivery-option" value="pick-up">
+                <label for="pick-up">Pick-up</label><br>
+            </form>
+            <button id="checkout-btn"> Checkout </button>
+            <p id="total-footnote">* 6.75% tax </p>
+        </aside>
+    </main>
+
+    <footer>
+        1201 Battleground Ave, Greensboro, NC 27408
+    </footer>
+</body>
+
+</html>

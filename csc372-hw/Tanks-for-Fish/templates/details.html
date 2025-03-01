@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+    Name: Victor Lor
+    Date: 2.23.2025
 
+    This is the details page for the product. It will list details about the 
+    item with an option to add the item to the cart.
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +25,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary" id="tff-nav">
             <a class="navbar-brand  tff-logo" href="index.html">
-                <img id="tanks-for-fish-logo" src="../assets/images/fish_tank3.png" alt="Bootstrap">
+                <img id="tanks-for-fish-logo" src="../assets/images/fish_tank3.png" alt="fish for tanks">
             </a>
             <div class="container-fluid">
                 <a class="navbar-brand title" id="single-day-regular-id" href="index.html">Tanks For Fish</a>
@@ -27,15 +33,14 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success nav-search-button" type="submit">Search</button>
                 </form>
-                <a id="cart" href=""><img id="shopping-cart" src="../assets/images/shopping_cart.png"> View My Cart</a>
-            </div>
+                <a id="cart" href="cart.html"><img id="shopping-cart" alt="shopping cart" src="../assets/images/shopping_cart.png"> View My Cart</a>
             </div>
         </nav>
     </header>
     <main>
         <div id="product-detail-container">
             <div id="product-img-table">
-                <img src="../assets/images/products/tanks/10-gallon.jpg">
+                <img src="../assets/images/products/tanks/10-gallon.jpg" alt="10 gallon tank">
                 <p id="product-info-header">Product Information</p>
                 <table>
                     <tbody>
@@ -83,6 +88,7 @@
                       </ul>
                     </dd>
                   </dl>
+                  <h6 id="price">Price: $15.00</h6>
                 <button id="cart-btn">Add to Cart</button>
             </div>
         </div>

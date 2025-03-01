@@ -95,3 +95,10 @@
     right: 35px;
 }
 
+#temp-link{
+    margin-top: 5px;
+    border-color: red;
+    border-width: 8px;
+    border-style: solid;
+    width: fit-content;
+}

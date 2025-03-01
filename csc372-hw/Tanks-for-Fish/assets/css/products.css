@@ -4,7 +4,7 @@ main{
 }
 
 #product-categories{   
-    background-color: rgb(189, 236, 244); /*blacnhealmond*/
+    background-color: rgb(189, 236, 244); 
     display:flex
 }
 .products{

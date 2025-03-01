@@ -12,6 +12,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+#cart{
+    text-decoration: none;
+    color: black;
+}
+#cart:hover{
+    color: blue;
+}
 #tff-nav{
     background-color: #a9ddff !important;
 }

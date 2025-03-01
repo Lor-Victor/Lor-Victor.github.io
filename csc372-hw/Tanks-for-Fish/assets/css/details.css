@@ -55,3 +55,8 @@ th {
 #cart-btn:hover{
     background-color: rgb(150, 210, 250);
 }
+#price{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
