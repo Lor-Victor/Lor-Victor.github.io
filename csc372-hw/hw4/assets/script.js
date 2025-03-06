@@ -55,6 +55,8 @@ playerThrow.forEach((img) => {
                 playerThrow.forEach((img) => img.style.border = "none");
                 compThrowImg.src = "./assets/images/question-mark.png";
                 document.getElementById('result').textContent= "";
+                document.getElementById('computer-wins').textContent = "0";
+                document.getElementById('user-wins').textContent = "0";
             });
         }, 3000); 
         
