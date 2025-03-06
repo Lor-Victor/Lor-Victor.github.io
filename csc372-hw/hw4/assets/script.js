@@ -7,11 +7,13 @@ const compThrowImg = document.getElementById('throw');
 const throws = ["./assets/images/rock.png", "./assets/images/paper.png", "./assets/images/scissors.png"];
 const throwValues = ["rock", "paper", "scissors"];
 
-// const outcome = document.get('outcome');
+const reset = document.getElementById('reset-btn');
 
 let playerChoice;
 let shuffleInterval;
 let computerChoice;
+// let userWins = 0;
+// let computerWins = 0;
 playerThrow.forEach((img) => {
     img.addEventListener('click', () => {
         playerThrow.forEach((img) => img.style.border = "none");
@@ -33,7 +35,27 @@ playerThrow.forEach((img) => {
             
             computerChoice = throwValues[randomIndex];
             compThrowImg.src = throws[randomIndex]; 
-            document.getElementById('result').textContent=winner();
+
+            const gameResult = winner();
+
+            document.getElementById('result').textContent=gameResult;
+            let userWins = parseInt(document.getElementById('user-wins').textContent);
+            let computerWins = parseInt(document.getElementById('computer-wins').textContent);
+
+            if(gameResult === "You win"){
+                userWins++;
+                document.getElementById('user-wins').textContent = userWins;
+            }
+            else if (gameResult === "Computer win"){
+                computerWins++;
+                document.getElementById('computer-wins').textContent = computerWins;
+            }
+
+            reset.addEventListener('click', () => {
+                playerThrow.forEach((img) => img.style.border = "none");
+                compThrowImg.src = "./assets/images/question-mark.png";
+                document.getElementById('result').textContent= "";
+            });
         }, 3000); 
         
     });
