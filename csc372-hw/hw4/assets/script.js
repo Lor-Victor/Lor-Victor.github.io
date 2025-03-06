@@ -4,7 +4,7 @@ const playerThrow = player.querySelectorAll('img');
 
 const computerThrow = document.getElementById('computer-throw');
 const compThrowImg = document.getElementById('throw');
-const throws = ["./assets/images/rock.png", "./assets/images/paper.png", "./assets/images/scissors.png"];
+const throws = ["./assets/images/rock.PNG", "./assets/images/paper.PNG", "./assets/images/scissors.PNG"];
 const throwValues = ["rock", "paper", "scissors"];
 
 const reset = document.getElementById('reset-btn');
@@ -12,8 +12,7 @@ const reset = document.getElementById('reset-btn');
 let playerChoice;
 let shuffleInterval;
 let computerChoice;
-// let userWins = 0;
-// let computerWins = 0;
+
 playerThrow.forEach((img) => {
     img.addEventListener('click', () => {
         playerThrow.forEach((img) => img.style.border = "none");
